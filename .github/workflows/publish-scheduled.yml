@@ -1,0 +1,66 @@
+name: Publish Scheduled Blog Post
+name: Publish Scheduled Blog Post
+
+on:
+  schedule:
+      - cron: '0 9 * * 1'
+        workflow_dispatch:
+
+        jobs:
+          publish:
+              runs-on: ubuntu-latest
+                  steps:
+                        - uses: actions/checkout@v4
+                              - name: Publish oldest scheduled post
+                                      run: |
+                                                OLDEST=$(ls -1t blog/scheduled/*.html 2>/dev/null | tail -1)
+                                                          [ -z "$OLDEST" ] && exit 0
+                                                                    FNAME=$(basename "$OLDEST")
+                                                                              mv "$OLDEST" "blog/$FNAME"
+                                                                                        echo "PUBLISHED=$FNAME" >> $GITHUB_ENV
+                                                                                              - name: Commit changes
+                                                                                                      if: env.PUBLISHED != ''
+                                                                                                              run: |
+                                                                                                                        git config user.name "GitHub Actions"
+                                                                                                                                  git config user.email "actions@github.com"
+                                                                                                                                            git add . && git commit -m "Publish: $PUBLISHED" && git push
+on:
+  schedule:
+      # Runs every Monday at 9am UTC (4am EST / 1am PST)
+          - cron: '0 9 * * 1'
+            workflow_dispatch: # Allow manual trigger
+
+            jobs:
+              publish:
+                  runs-on: ubuntu-latest
+                      steps:
+                            - name: Checkout repository
+                                    uses: actions/checkout@v4
+
+                                          - name: Find and publish oldest scheduled post
+                                                  run: |
+                                                            # Find the oldest file in scheduled folder
+                                                                      OLDEST_POST=$(ls -1t blog/scheduled/*.html 2>/dev/null | tail -1)
+
+                                                                                if [ -z "$OLDEST_POST" ]; then
+                                                                                            echo "No scheduled posts found. Skipping."
+                                                                                                        exit 0
+                                                                                                                  fi
+                                                                                                                  
+                                                                                                                            # Get filename without path
+                                                                                                                                      FILENAME=$(basename "$OLDEST_POST")
+                                                                                                                                      
+                                                                                                                                                # Move to blog folder
+                                                                                                                                                          mv "$OLDEST_POST" "blog/$FILENAME"
+                                                                                                                                                          
+                                                                                                                                                                    echo "Published: $FILENAME"
+                                                                                                                                                                              echo "PUBLISHED_FILE=$FILENAME" >> $GITHUB_ENV
+                                                                                                                                                                              
+                                                                                                                                                                                    - name: Commit and push changes
+                                                                                                                                                                                            if: env.PUBLISHED_FILE != ''
+                                                                                                                                                                                                    run: |
+                                                                                                                                                                                                              git config user.name "GitHub Actions"
+                                                                                                                                                                                                                        git config user.email "actions@github.com"
+                                                                                                                                                                                                                                  git add .
+                                                                                                                                                                                                                                            git commit -m "Publish scheduled post: ${{ env.PUBLISHED_FILE }}"
+                                                                                                                                                                                                                                                      git push
