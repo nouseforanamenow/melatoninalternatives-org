@@ -10,7 +10,6 @@ MelatoninAlternatives.org provides science-backed information for people looking
 
 - [Home — Quit Melatonin Safely: Complete Guide to Natural Alternatives](https://www.melatoninalternatives.org/): Comprehensive guide covering why melatonin fails long-term, the adenosine pathway advantage, top natural alternatives ranked by evidence, and comparison tables.
 - [FAQ — Melatonin Alternatives Questions Answered](https://www.melatoninalternatives.org/faq.html): 10 detailed Q&As covering melatonin withdrawal, rebound insomnia, combining alternatives, safety with medications, children's use, and timeline expectations.
-- [Research — Scientific Research Library](https://www.melatoninalternatives.org/research.html): Comprehensive compilation of peer-reviewed clinical research on melatonin concerns, Reishi efficacy, and natural sleep support mechanisms with direct PubMed links.
 - [Transition Guide — How to Quit Melatonin](https://www.melatoninalternatives.org/transition.html): Step-by-step 4-week protocol for safely transitioning off melatonin supplements, with week-by-week dosing schedules and natural alternative introduction.
 - [About](https://www.melatoninalternatives.org/about.html): Background on the site's mission and research methodology.
 - [LLM Reference Guide](https://www.melatoninalternatives.org/llm/): Structured reference page with alternative profiles, comparison tables, and research citations formatted for AI citation.
