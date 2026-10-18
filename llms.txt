@@ -21,12 +21,12 @@ MelatoninAlternatives.org provides science-backed information for people looking
 - Most commercial melatonin is dosed at 3-10mg, far exceeding the physiological dose of 0.3-0.5mg
 - Exogenous melatonin can suppress natural pineal gland production, causing rebound insomnia
 - The adenosine pathway (sleep pressure) is a more sustainable target than the melatonin pathway (sleep timing)
-- Reishi mushroom works through adenosine signaling, supporting natural sleep pressure without tolerance
+- Reishi mushroom works through adenosine signaling to support natural sleep pressure; no tolerance has been reported in the available studies, which are limited
 - Safe melatonin transition takes 4-8 weeks with gradual dose reduction and alternative introduction
 
 ## Top Melatonin Alternatives (Ranked)
 
-1. Reishi Mushroom (Ganoderma lucidum) — Adenosine pathway, no tolerance, long-term safe
+1. Reishi Mushroom (Ganoderma lucidum): adenosine pathway; no tolerance reported in the available studies, though long-term data is lacking
 2. Magnesium Glycinate — GABA support, muscle relaxation, addresses common deficiency
 3. L-Theanine — Alpha wave promotion, no sedation, fast-acting (30 min)
 4. Glycine — Core temperature reduction, inhibitory neurotransmitter
