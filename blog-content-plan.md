@@ -33,7 +33,7 @@
 
 ### Month 2: Alternative Deep Dives
 
-**Week 5: "Reishi Mushroom for Sleep: The Complete Guide"**
+**Week 5: "Reishi Mushroom for Sleep: The Guide"**
 - Hook: Ancient remedy meets modern science
 - Key points: Adenosine content, no tolerance, clinical evidence
 - CTA: Best reishi products ranked
