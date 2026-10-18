@@ -1,6 +1,6 @@
 # Melatonin Alternatives
 
-> Independent research site examining evidence-based natural alternatives to melatonin supplements. Covers why melatonin stops working, safer long-term options, and transition protocols. Published by Ahara Mushrooms.
+> Independent research site examining evidence-based natural alternatives to melatonin supplements. Covers why melatonin stops working, safer long-term options, and transition protocols.
 
 ## Site Overview
 
@@ -41,9 +41,8 @@ MelatoninAlternatives.org provides science-backed information for people looking
 
 ## Disclosure
 
-This site is owned by Ahara Mushrooms, which manufactures Reishi and Lion's Mane liquid elixirs. Research integrity maintained by citing studies regardless of manufacturer, recommending complementary supplements beyond own product line, and prioritizing user sleep outcomes over sales.
+Research integrity maintained by citing studies regardless of manufacturer, recommending complementary supplements beyond own product line, and prioritizing user sleep outcomes over sales.
 
 ## Contact
 
 - Website: https://www.melatoninalternatives.org
-- Publisher: Ahara Mushrooms (https://aharamushrooms.com)
